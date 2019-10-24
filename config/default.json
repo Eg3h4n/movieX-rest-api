@@ -1,0 +1,6 @@
+{
+  "name": "MovieX - Default",
+  "mongodb": {
+    "host": "mongodb://localhost:27017/movieX"
+  }
+}

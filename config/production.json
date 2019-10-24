@@ -1,0 +1,6 @@
+{
+  "name": "MovieX - Production",
+  "mongodb": {
+    "host": "mongodb+srv://eg3h4n:htg247@cluster0-lx33o.mongodb.net/test?retryWrites=true&w=majority"
+  }
+}
