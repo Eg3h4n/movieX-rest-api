@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const config = require("config");
+const cors = require("cors");
 
 const server = express();
 
@@ -15,6 +16,7 @@ mongoose
 
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
+server.use(cors());
 
 const moviesRoutes = require("./routes/moviesRoute");
 const actorsRoutes = require("./routes/actorsRoute");
